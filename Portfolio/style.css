@@ -1,78 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
+body {
+  background-color: #22212C;
+  padding: 30px;
+  font-family: 'Merriweather Sans', sans-serif;
 }
-:root {
-    --body-bg-color: #22212C;
-    --text-color: #837E9F;
-    --bg-cards: #302F3D;
-    --bg-techs: #CB92B1;
-  }
-  body{
-    background-color: var(--body-bg-color);
-    display: flex;
-  }
-  main{
-  }
-  aside{
-  }
-  .Profile, .Links, .Technologies, .Experiences, .Education{
-    background-color: var(--bg-cards);
-    width: 348px;
-    margin: 40px 30px 30px 40px;
-    border-radius: 20px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
-  }
-  .imgProfile{
-    margin: 32px 110px 15px 110px;
-  }
-  .Name{
-    margin-top: 15px;
-    margin-bottom: 10px;
-  }
-  .Profession{
-    padding-bottom: 49px;
-  }
-  .map, .work, .gitHub,.Email{
-    display: flex;
-  }
-  p,h2,a{
-    color: var(--text-color);
-  }
-  a{
-    text-decoration: none;
-  }
-  .Profile{
-    text-align: center;
-  }
-  .imgEmail, .imgGitHub,.imgMap, .imgWork{
-    width: 24px;
-    height: 24px;
-  }
-  .imgMap{
-    margin: 30px 10px 10px 40px ;
-  }
-  .imgWork, .imgGitHub{
-    margin: 10px 10px 10px 40px;
-  }
-  .imgEmail{
-    margin: 10px 10px 30px 40px;
-  }
-  .textMap{
-    margin: 34px 0px 0px 10px;
-  }
-  .textWork, .textGitHub, .textEmail{
-    margin: 13px 0px 0px 10px;
-  }
-  .TechnologiesTtitle{
-    padding: 30px 0px 0px 20px;
-  }
-  .technologiesDivs{
-    width: 86px;
-    height: 24px;
-    background-color:var(--bg-techs) ;
-    border-radius: 30px;
-  }
-  .technologiesDivs p{
-    color: #000000;
-  }
+
+
+main {
+  display: grid;
+  grid-template-columns: 28% 68%;
+  gap: 4%;
+  width: 100%;
+}
+
+.box-gray {
+  background-color: #302F3D;
+  border-radius: 20px;
+
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+#left-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+#right-main {
+  width: 100%;
+}
+
+#box-i, #box-links   {
+  padding: 40px;
+}
+
+
+#box-links{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#box-i {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+[class*=text] {
+  color: #837E9F;
+}
+
+.box-text-i { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.my-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2vh;
+  margin-bottom: 0.5vh;
+}
+
+.my-area {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.box-icon-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2vw;
+}
