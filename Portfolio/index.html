@@ -1,291 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Portifolio</title>
 </head>
-
-<body id="body">
+<body>
+    <aside>
+        <div class="Profile">
+            <img class="imgProfile" src="assets/" alt="">
+          <p class="Name">Felipe Lopes Aguir De Oliveira</p>
+          <p class="Profession">Front End Developer</p>  
+        </div>
+        <div class="Links">
+            <div class="map">
+                <img class="imgMap" src="assets/map-pin.svg" alt="">
+                <p class="textMap">Brasil</p>
+            </div>
+            <div class="work">
+                <img class="imgWork" src="assets/briefcase.svg" alt="">
+                <p class="textWork">Freelancer</p>
+            </div>
+            <div class="gitHub">
+                <img class="imgGitHub" src="assets/github.svg" alt="">
+                <p class="textGitHub">Swed0Z</p>
+            </div>
+            <div class="Email">
+                <img class="imgEmail" src="assets/mail.svg" alt="">
+                <p class="textEmail">felipelopesaguiar2077@gmail.com</p>
+            </div>
+        </div>
+        <div class="Technologies">
+            <div class="TechnologiesDivsTotal">
+                <h2 class="TechnologiesTtitle">Tecnologias</h2>
+                <div class="technologiesDivs">
+                    <p class="technologiesText">JAVASCRIPT</p>
+                </div>
+                <div class="technologiesDivs">
+                    <p class="technologiesText">GIT</p>
+                </div>
+                <div class="technologiesDivs">
+                    <p class="technologiesText">GITHUB</p>
+                </div>
+                <div class="technologiesDivs">
+                    <p class="technologiesText">HTML</p>
+                </div>
+                <div class="technologiesDivs">
+                    <p class="technologiesText">CSS</p>
+                </div>
+            </div>
+        </div>
+        <div class="Experiences"></div>
+        <div class="Education"></div>
+    </aside>
     <main>
-        <div id="left-main">
-            <div id="box-i" class="box-gray">
-                <img src="img/img-portifolio.png" alt="image of me">
-                <div class="box-text-i">
-                    <h2 class="my-name">Maykon José Dias</h2>
-                    <p class="my-area">Full Stack Developer</p>
-                </div>
-            </div>
-            <div id="box-links" class="box-gray">
-                <div class="box-icon-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-map-pin">
-                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                        <circle cx="12" cy="10" r="3"></circle>
-                    </svg>
-                    <p class="text-link">Brasil</p>
-                </div>
-                <div class="box-icon-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-briefcase">
-                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                    </svg>
-                    <p class="text-link">Rocketseat</p>
-                </div>
-                <div class="box-icon-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-github">
-                        <path
-                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                        </path>
-                    </svg>
-                    <p class="text-link">birobirobiro</p>
-                </div>
-                <div class="box-icon-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-linkedin">
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                        <rect x="2" y="9" width="4" height="12"></rect>
-                        <circle cx="4" cy="4" r="2"></circle>
-                    </svg>
-                    <p class="text-link">joao-inacio-neto</p>
-                </div>
-                <div class="box-icon-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-twitter">
-                        <path
-                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                        </path>
-                    </svg>
+        <div class="MyProjects">
+            <h2>My Projects</h2>
+            <a href="#">Veja todos</a>
+        </div>
+        <div class="Poject-1">
+        </div>
+        <div class="Project-2"></div>
+        <div class="recentsPost"></div>
+        <div class="RecentPosts"></div>
+        <div class="Post"></div>
 
-                    <p class="text-link">birobirobiro</p>
-                </div>
-                <div class="box-icon-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-globe">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path
-                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                        </path>
-                    </svg>
-                    <p class="text-link">https://birobirobiro.dev</p>
-                </div>
-                <div class="box-icon-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-mail">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                    <p class="text-link">birobirobiro.dev@gmail.com</p>
-                </div>
-            </div>
-            <div id="box-technologies" class="box-gray">
-                <h3 class="category-title">
-                    Tecnologias
-                </h3>
-                <div class="box-stacks">
-                    <div class="box-stack">
-                        <h4 class="stack-text">TEST</h4>
-                    </div>
-                    <div class="box-stack">
-                        <h4 class="stack-text">TEST</h4>
-                    </div>
-                    <div class="box-stack">
-                        <h4 class="stack-text">TEST</h4>
-                    </div>
-                    <div class="box-stack">
-                        <h4 class="stack-text">TEST</h4>
-                    </div>
-                    <div class="box-stack">
-                        <h4 class="stack-text">TEST</h4>
-                    </div>
-                    <div class="box-stack">
-                        <h4 class="stack-text">TEST</h4>
-                    </div>
-                    <div class="box-stack">
-                        <h4 class="stack-text">TEST</h4>
-                    </div>
-                    <div class="box-stack">
-                        <h4 class="stack-text">TEST</h4>
-                    </div>
-                    <div class="box-stack">
-                        <h4 class="stack-text">TEST</h4>
-                    </div>
-                </div>
-            </div>
-            <div id="box-experiences" class="box-gray">
-                <h3 class="category-text-title">
-                    Experiências
-                </h3>
-                <div class="box-journey">
-                    <ul class="journey-ul">
-                        <li class="journey-li">
-                            <h4 class="experience-text-title">Rocketseat</h4>
-                            <p class="experience-text">2019 - Atualmente</p>
-                            <p class="experience-text">Community Experience</p>
-                        </li>
-                        <li class="journey-li">
-                            <h4 class="experience-text-title">Rocketseat</h4>
-                            <p class="experience-text">2019 - Atualmente</p>
-                            <p class="experience-text">Community Experience</p>
-                        </li>
-                        <li class="journey-li">
-                            <h4 class="experience-text-title">Rocketseat</h4>
-                            <p class="experience-text">2019 - Atualmente</p>
-                            <p class="experience-text">Community Experience</p>
-                        </li>
-                        <li class="journey-li">
-                            <h4 class="experience-text-title">Rocketseat</h4>
-                            <p class="experience-text">2019 - Atualmente</p>
-                            <p class="experience-text">Community Experience</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="box-education" class="box-gray">
-                <h3 class="category-text-title">Educação</h3>
-                <ul class="category-ul">
-                    <li class="category-li">
-                        <h4 class="education-text-title">Rocketseat</h4>
-                        <p class="education-text">2019 - 2019</p>
-                        <p class="education-text">Ignite Pro</p>
-                    </li>
-                    <li class="category-li">
-                        <h4 class="education-text-title">Rocketseat</h4>
-                        <p class="education-text">2019 - 2019</p>
-                        <p class="education-text">Ignite Pro</p>
-                    </li>
-                    <li class="category-li">
-                        <h4 class="education-text-title">Rocketseat</h4>
-                        <p class="education-text">2019 - 2019</p>
-                        <p class="education-text">Ignite Pro</p>
-                    </li>
-                    <li class="category-li">
-                        <h4 class="education-text-title">Rocketseat</h4>
-                        <p class="education-text">2019 - 2019</p>
-                        <p class="education-text">Ignite Pro</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div id="rigth-main">
-            <div id="box-my-projects" class="box-gray">
-                <h3 class="my-projects-text">
-                    My Projects
-                </h3>
-                <a class="see-more-text" href="#">
-                    <h4>Veja todos</h4>
-                </a>
-            </div>
-            <div id="box-project" class="box-gray">
-                <div class="icon-title">
-                    <img src="icons/folder.svg" alt="">
-                    <h3 class="project-title">my-onix</h3>
-                </div>
-                <div class="description">
-                    <p class="description-text">
-                        Consulte os códigos de erro que
-                        aparecem no painel do veículo Onix.
-                    </p>
-                </div>
-                <div class="project-meta">
-                    <div class="star-gitbranch">
-                        <div class="star">
-                            <img src="icons/star.svg" alt="">
-                            <p class="meta">100</p>
-                        </div>
-                        <div class="git-branch">
-                            <img src="icons/git-branch.svg" alt="">
-                            <p class="meta">100</p>
-                        </div>
-                    </div>
-                    <div class="stack">
-                        <div class="stack-icon"></div>
-                        <p class="stack-text">JavaScript</p>
-                    </div>
-                </div>
-            </div>
-            <div id="box-project" class="box-gray">
-                <div class="icon-title">
-                    <img src="icons/folder.svg" alt="">
-                    <h3 class="project-title">my-onix</h3>
-                </div>
-                <div class="description">
-                    <p class="description-text">
-                        Consulte os códigos de erro que
-                        aparecem no painel do veículo Onix.
-                    </p>
-                </div>
-                <div class="project-meta">
-                    <div class="star-gitbranch">
-                        <div class="star">
-                            <img src="icons/star.svg" alt="">
-                            <p class="meta">100</p>
-                        </div>
-                        <div class="git-branch">
-                            <img src="icons/git-branch.svg" alt="">
-                            <p class="meta">100</p>
-                        </div>
-                    </div>
-                    <div class="stack">
-                        <div class="stack-icon"></div>
-                        <p class="stack-text">JavaScript</p>
-                    </div>
-                </div>
-            </div>
-            <div id="box-recent-posts" class="box-gray">
-                <h3 class="recent-posts-text">
-                    Recent Posts
-                </h3>
-            </div>
-            <div id="box-post" class="box-gray">
-                <div class="post-imagem">
-                    <img src="img/img-portifolio-v2.png" alt="">
-                </div>
-                <div class="post-box-title">
-                    <h3 class="post-title">
-                        Erro adb devices no Genymotion e
-                        Android Studio (React Native)
-                    </h3>
-                    <p class="time">2 anos atrás</p>
-                </div>
-                <div class="post-box-description">
-                    <h4 class="description">
-                        Erro adb devices no Genymotion
-                        e Android Studio (React Native)
-                    </h4>
-                    <div class="box-hashtag">
-                        <p class="hashtag">
-                            #react-native
-                        </p>
-                        <p class="hashtag">
-                            #genimotion
-                        </p>
-                        <p class="hashtag">
-                            #genimotion
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </main>
-    <footer id="footer">
-        <p id="text-footer">
-            Feito com 💜 por Maykon JDS
-        </p>
-    </footer>
 </body>
-
 </html>
