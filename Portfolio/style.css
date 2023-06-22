@@ -12,10 +12,6 @@
     background-color: var(--body-bg-color);
     display: flex;
   }
-  main{
-  }
-  aside{
-  }
   .Profile, .Links, .Technologies, .Experiences, .Education{
     background-color: var(--bg-cards);
     width: 348px;
@@ -50,7 +46,7 @@
     flex-direction: column;
     gap: 20px;
   }
-    
+
   .TechnologiesTtitle{
     padding: 30px 0px 0px 20px;
   }
