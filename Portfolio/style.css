@@ -45,25 +45,12 @@
   .Profile{
     text-align: center;
   }
-  .imgEmail, .imgGitHub,.imgMap, .imgWork{
-    width: 24px;
-    height: 24px;
+  .Links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
-  .imgMap{
-    margin: 30px 10px 10px 40px ;
-  }
-  .imgWork, .imgGitHub{
-    margin: 10px 10px 10px 40px;
-  }
-  .imgEmail{
-    margin: 10px 10px 30px 40px;
-  }
-  .textMap{
-    margin: 34px 0px 0px 10px;
-  }
-  .textWork, .textGitHub, .textEmail{
-    margin: 13px 0px 0px 10px;
-  }
+    
   .TechnologiesTtitle{
     padding: 30px 0px 0px 20px;
   }
