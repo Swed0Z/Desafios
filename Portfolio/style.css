@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -51,15 +54,31 @@
     padding-right: 20px;
     padding-left: 40px;
   }
+  .TechnologiesDivsTotal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
   .TechnologiesTtitle{
-    padding: 30px 0px 0px 20px;
+    padding: 30px 0px 26px 20px;
   }
   .technologiesDivs{
     width: 86px;
     height: 24px;
     background-color:var(--bg-techs) ;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .technologiesDivs p{
-    color: #000000;
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    font-family: Merriweather Sans;
+    font-weight: 700;
+  }
+  .TechnologiesDivsTotal > div:last-child{
+    margin-bottom: 40px;
   }
