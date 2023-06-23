@@ -83,3 +83,7 @@
   .TechnologiesDivsTotal > div:last-child{
     margin-bottom: 40px;
   }
+  .list{
+    display: flex;
+    flex-direction: column;
+  }
