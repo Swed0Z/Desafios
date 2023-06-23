@@ -53,6 +53,7 @@
   .imgLink{
     padding-right: 20px;
     padding-left: 40px;
+    filter: invert(47%) sepia(56%) saturate(0%) hue-rotate(199deg) brightness(95%) contrast(100%);
   }
   .TechnologiesDivsTotal{
     display: flex;
