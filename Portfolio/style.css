@@ -86,7 +86,8 @@
   .list{
     display: flex;
     flex-direction: column;
+    padding: 0px 0px 30px 60px;
   }
   ul{
-    list-style-position: inside;
+    
   }
