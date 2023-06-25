@@ -35,7 +35,7 @@
   .map, .work, .gitHub,.Email{
     display: flex;
   }
-  p,h2,a{
+  p,h2,a,span{
     color: var(--text-color);
   }
   a{
@@ -87,4 +87,7 @@
     display: flex;
     flex-direction: column;
     padding: 0px 0px 30px 60px;
+  }
+  span{
+    font-size: 1.2rem;
   }
