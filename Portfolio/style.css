@@ -93,3 +93,14 @@
   span{
     font-size: 1.2rem;
   }
+  .MyProjects{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+  }
+  .MyProjects h2 {
+    padding: 30px 0 30px 30px;
+  }
+  .MyProjects a {
+    padding: 34px 30px 34px 0;
+  }
