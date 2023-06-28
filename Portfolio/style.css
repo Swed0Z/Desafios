@@ -34,7 +34,7 @@
   .Profession{
     padding-bottom: 49px;
   }
-  .map, .work, .gitHub,.Email{
+  .map, .work, .gitHub,.Email,.Poject,.projectTtitle{
     display: flex;
   }
   p,h2,a,span{
@@ -98,7 +98,7 @@
     justify-content: space-between;
     width: 60vw;
   }
-  .MyProjects h2 {
+  .MyProjects . h2 {
     padding: 30px 0 30px 30px;
   }
   .MyProjects a {
