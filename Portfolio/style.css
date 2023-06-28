@@ -93,14 +93,14 @@
   span{
     font-size: 1.2rem;
   }
-  .MyProjects{
+  .MyProjects, .recentsPost{
     display: flex;
     justify-content: space-between;
     width: 60vw;
   }
-  .MyProjects . h2 {
+  .MyProjects h2,.recentsPost h2 {
     padding: 30px 0 30px 30px;
   }
-  .MyProjects a {
+  .MyProjects a,.recentsPost a {
     padding: 34px 30px 34px 0;
   }
