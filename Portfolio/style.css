@@ -52,7 +52,7 @@
     gap: 20px;
     padding: 30px 0px 30px 0px;
   }
-  .imgLink{
+  .imgLink, .Poject img{
     padding-right: 20px;
     padding-left: 40px;
     filter: invert(47%) sepia(56%) saturate(0%) hue-rotate(199deg) brightness(95%) contrast(100%);
