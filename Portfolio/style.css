@@ -104,3 +104,6 @@
   .MyProjects a,.recentsPost a {
     padding: 34px 30px 34px 0;
   }
+  .projectTtitle{
+    margin-top: 30px;
+  }
